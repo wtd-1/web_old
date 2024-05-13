@@ -3,57 +3,17 @@
 
 Greetings, this is a personal webpage created from the [Academic Webpage Template Demo](https://amirmnoohi.github.io/Academic-Webpage-Template/)
 
-## Demo
+## Webpage Demo
 
-Experience the template live: [Academic Webpage Template Demo](https://amirmnoohi.github.io/Academic-Webpage-Template/)
+To see this webpage in action, click [here](https://wtd-1.github.io/web/)
 
-## Features
+orite text editor and start customizing the template to suit your academic profile or portfolio.
 
-- **Responsive Design**: Looks great on both desktop and mobile devices.
-- **Easy to Customize**: With well-commented code and a flexible structure, tailoring the template to fit your needs is a breeze.
-- **Academic-Focused Components**: Includes sections for publications, projects, a biography, and contact information—everything an academic professional needs to showcase their achievements.
-- **Cross-Browser Compatibility**: Tested on the latest versions of Chrome, Firefox, Safari, and Edge.
+## Using the Template 
 
-## Getting Started
-
-To use this template for your own academic webpage, follow these steps:
-
-1. **Clone the Repository**
-
-   ```bash
-   git clone https://github.com/amirmnoohi/Academic-Webpage-Template.git
-   cd Academic-Webpage-Template
-   ```
-
-2. **Customize the Template**
-
-   Open the HTML and CSS files in your favorite text editor and start customizing the template to suit your academic profile or portfolio.
-
-3. **Publish Your Site**
-
-   Utilize GitHub Pages or your preferred hosting service to publish your site. If using GitHub Pages, simply push your changes to your repository and enable GitHub Pages in the repository settings.
-
-## Contributing
-
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## Feedback
-
-Your feedback is welcome! Please use the Issues section for feature requests, bug reports, or general feedback.
-
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
+As was mentioned before, this webpage was created from the [Academic Webpage Template](https://amirmnoohi.github.io/Academic-Webpage-Template/) written by Amir M. Noohi. Click on the aforementioned link for information on how this template can be deployed. 
 
 ## Acknowledgments
 
 - Icons and graphics used under license from [FontAwesome](https://fontawesome.com/)
-- Inspired by academic community feedback
-
-Thank you for considering or using the Academic Webpage Template!
+- Amir. M. Noohi for creating such a sleek, wonderfully designed template for academics and enthusiasts alike to use!
