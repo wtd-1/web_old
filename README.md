@@ -1,7 +1,7 @@
 
-# Academic Webpage Template
+# Academic Webpage
 
-Welcome to the Academic Webpage Template repository! This project offers a sleek, responsive HTML/CSS template designed specifically for academics—be it professors, students, or research groups—looking to establish a professional online presence.
+Greetings, this is a personal webpage created from the [Academic Webpage Template Demo](https://amirmnoohi.github.io/Academic-Webpage-Template/)
 
 ## Demo
 
