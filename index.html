@@ -93,9 +93,9 @@
                     <ul id="menu">
                         <li><a href="javascript:void(0)" onclick="showSection('about-section')">Home</a></li>
                         <li><a href="javascript:void(0)" onclick="showSection('teaching-section')">Teaching</a></li>
-                        <li><a href="javascript:void(0)" onclick="showSection('publications-section')">Publications</a>
-                        </li>
+                        <li><a href="javascript:void(0)" onclick="showSection('publications-section')">Publications</a></li>
                         <li><a href="javascript:void(0)" onclick="showSection('projects-section')">Projects</a></li>
+                        <li><a href="javascript:void(0)" onclick="showSection('awards-section')">Awards</a></li>
                         <li><a href="javascript:void(0)" onclick="showSection('team-section')">People</a></li>
                     </ul>
 
@@ -273,7 +273,7 @@
             <div id="team-section" class="section" style="display:none;">
 
                 <div class="container">
-                    <h3 id="students-postdocs">Advisors</h3>
+                    <h3 id="students-postdocs">Advisors (ALL)</h3>
                     <div class="row">
 
                         <div class="col-lg-3 col-md-4 col-sm-6">
@@ -283,8 +283,9 @@
                                     <img class="card-avatar"
                                          src="https://wtd-1.github.io/web/dp-faculty-2-medium.jpg"
                                          alt="avatar"/>
-                                    <h1 class="card-fullname" style="color: #2b2c48";>Brian Ricks</h1>
+                                    <h1 class="card-fullname" style="color: #2b2c48";>Brian Ricks</h1>                                    <h1 class="card-fullname" style="color: #2b2c48";>Brian Ricks</h1>
                                 </div>
+                                <div class="card-subtitle" style="color: #2b2c48"><center>CURRENT ADVISOR</center></div>
                                 <div class="card-main">
                                     <div class="card-section is-active" id="about1">
                                         <div class="card-content">
@@ -373,6 +374,8 @@
                                          alt="avatar"/>
                                     <h1 class="card-fullname" style="color: #2b2c48">Yapeng Tian</h1>
                                 </div>
+                                <div class="card-subtitle" style="color: #2b2c48"><center>FORMER ADVISOR</center></div>
+
                                 <div class="card-main">
                                     <div class="card-section is-active" id="about2">
                                         <div class="card-content">
@@ -457,63 +460,31 @@
             </div>
             <div id="projects-section" class="section" style="display:none;">
                 <div class="container list-container">
-                    <h3 id="projects">Projects</h3>
-                    <p>
-                        <br>
-                        This page is intentionally left blank.
-                    </p>
-                    <!--
-                    <div class="row clearfix layout layout-left border-no">
-                        <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-                            <p><b>Current Projects</b></p>
+                        <h3 id="projects">Projects</h3>
+                        <div class="row clearfix layout layout-left border-no">
+                            <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+                                <p><b><mark>Summer 2024</mark></b></p>
+                                <p class="no-print aditional-links">
+                                </p>
+                            </div>
+                            <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
+                                <p><strong>
+                                        92 Days, 92 Proofs
+                                    </strong><br>
+                                    <p>
+                                        <i>Introduction Exerpt:</i><br>
+                                        [T]his document will contain proofs from a plethora of subjects 
+                                        spanning multiple disciplines and requiring of the investigator variable 
+                                        levels of effort. The crux of this paper is to be a culmination of proofs 
+                                        which have been undertaken—having done so will solidify and fortify bedrock  
+                                        concepts in critical thinking, logical reasoning, and precise communication. 
+                                    </p>
+                                    
+                                </p>
+                            </div>
                         </div>
-                        <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
-                            <p>
-                                NEW! Data-center scale classical simulation of quantum computer<br>
-                                NEW! Quantum circuit cutting<br>
-                                Popcorn Linux Next++ <br>
-                                Popcorn Compiler Framework for managed languages<br>
-                                Popcorn Linux for CC shared memory heterogeneous processors <br>
-                                Compiler (LLVM) optimizations based on physical laws and quantities <br>
-                                Data-center scale in-storage processing <br>
-                            </p>
-                        </div>
                     </div>
-                </div>
-
-                <div class="row clearfix layout layout-left border-no">
-                    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-                        <p><b>Past Projects</b></p>
-                    </div>
-                    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
-                        <p>
-                            (Edinburgh) Anubis, IO-aware VM scheduling (Linux/KVM) <a
-                                href="https://github.com/systems-nuts/Anubis" class="link-icon"><i
-                                class="fas fa-link"></i></a><br>
-                            (Edinburgh) FragVisor <a href="https://github.com/systems-nuts/FragVisor"
-                                                     class="link-icon"><i
-                                class="fas fa-link"></i></a><br>
-                            (Stevens) H-Containers <a href="https://github.com/systems-nuts/hcontainer-tutorial"
-                                                      class="link-icon"><i class="fas fa-link"></i></a><br>
-                        </p>
-                    </div>
-                </div>
-
-                <div class="row clearfix layout layout-left border-no">
-                    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-                        <p><b>Contributed Projects</b></p>
-                    </div>
-                    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
-                        <p>
-                            MDSplus <a href="http://www.mdsplus.org" class="link-icon"><i
-                                class="fas fa-link"></i></a><br>
-                            FreeRTOS <a href="http://www.freertos.org" class="link-icon"><i
-                                class="fas fa-link"></i></a><br>
-                            UBOOT <a href="http://www.denx.de/wiki/U-Boot/WebHome" class="link-icon"><i
-                                class="fas fa-link"></i></a><br>
-                        </p>
-                    </div>
-                    -->
+                   
                 </div>
                 
             </div>
@@ -523,7 +494,7 @@
                     <h3 id="publications">Publications</h3>
                     <div class="row clearfix layout layout-left border-no">
                         <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-                            <p><b>Conference/Journal</b></p>
+                            <p><b><mark>Conference/Journal</mark></b></p>
                             <p class="no-print aditional-links">
                             </p>
                         </div>
@@ -543,11 +514,11 @@
                 </div>
 
                 <div class="container list-container">
-                    <h3 id="grants-awards">Grants/Awards</h3>
+                    <h3 id="grants-awards">Grants</h3>
                     <div class="row clearfix layout layout-left border-no">
                         <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
                             <h4 id=""></h4>
-                            <p><b>Grants</b></p>
+                            <p><b><mark>Grants</mark></b></p>
                             <p class="no-print aditional-links">
                             </p>
                         </div>
@@ -558,7 +529,35 @@
                     </div>
                 </div>
             </div>
-        </div>
+            <div id="awards-section" class="section" style="display:none;">
+                <div class="container list-container">
+                    <h3>Awards and Accolades</h3>
+
+                    <p>
+                        <br>
+                        <strong>Certificate of Congressional Recognition</strong><br>
+                        <i>Issued: 4 June 2022</i><br>
+                        This Certificate of Congressional Recognition was bestowed upon Mr. Doan by 
+                        Congressman Van Taylor, the United States representative for Texas's third 
+                        congressional district at the time in recognition and furtherance of his
+                        "outstanding citizenship in [his] community and for [his] country."                     
+                    </p>
+                    <h3></h3>
+                    <p>
+                        <br>
+                        <strong>Certificate of Congratulations</strong><br>
+                                    <i>Issued: 4 June 2022</i><br>
+                                    This Certificate of Congratulations was bestowed upon Mr. Doan by 
+                                    Texas State Senator Angela Paxton and State Representative Jeff Leach 
+                                    of the eighth senatorial district and the sixty-seventh representative 
+                                    district respectively. It was given to recognize Mr. Doan's graduation 
+                                    as well as his work "in [his] community, state, and country."
+                    </p>
+                    <h3></h3>
+                    </div>
+                
+            </div>
+                
 </main>
 
 <footer class="navbar" style="margin-bottom: 0px">
@@ -577,8 +576,7 @@
             </div>
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
                 <p style="font-size: 20px;margin-top: 18px;">
-                    <span style="font-size: 20px; font-weight: 600">Last Updated:</span> <span
-                        style="font-size: 20px; font-weight: 300">12 MAY 2024</span>
+                    
                 </p>
                 <!--
                 <p style="font-size: 20px;">
